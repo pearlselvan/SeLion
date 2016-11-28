@@ -1,5 +1,6 @@
 #!/bin/bash
 set -ev
+echo "welcome"
 git clone --depth=50 https://github.com/ios-driver/ios-driver.git ios-driver/ios-driver
 cd ios-driver/ios-driver
 git submodule init
